@@ -69,7 +69,7 @@ body, ul {
 }
 /* Fim estilo carousel */
 /* Início Estilo Media >> Mobile */
-@media (max-width: 600px ) {
+@media (max-width: 690px ) {
     #menu{
         display: block;
         position: absolute;
@@ -441,3 +441,62 @@ display: flex;
     margin-top: 30px;
 }
 /* Fim estilo video */
+/* Inicio estilo Contato */
+.contact {
+    padding: 70px 0px;
+    background:#ceb5e9;
+}
+.section-title h2 {
+color: #ffffff;
+font-size: 30px;
+font-weight: normal;
+text-transform: uppercase;
+letter-spacing: 8px;
+border-bottom: 5px solid black;
+padding-bottom: 10px;
+display: inline-block;
+}
+.section-title p {
+color: #2e2a2a;
+margin-bottom: 30px;
+}
+.contact input,
+.contact textarea {
+background: #fafafa;
+}
+.contact textarea {
+min-height: 188px;
+max-width: 100%;
+}
+.contact .map {
+overflow: hidden;
+border-radius: 4px;
+height: 65%;
+}
+
+/* Fim estilo Contato */
+
+/* Inicio estilo market place */
+.market-place {
+height: 180%;
+width: 100%;
+position: relative;
+padding: 20px 0;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: auto;
+margin-right: auto;
+
+}
+.market-place img {
+height: 160%;
+width: 100%;
+
+}
+
+
+
+
+
+/* Fim estilo market place */
